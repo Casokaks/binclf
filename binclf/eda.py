@@ -6,6 +6,7 @@ Created on Thu Nov  1 10:17:23 2018
 '''
 
 
+import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from IPython.display import display
