@@ -14,19 +14,25 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='projectname',
-    version='0.0.1',
+    name='binclf',
+    version='0.1.1',
     author='Casokaks',
     author_email='casokaks@gmail.com',
-    description='Light python template',
+    description='ML binary classification utility package',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/Casokaks/light-python-template',
+    url='https://github.com/Casokaks/binclf.git',
     project_urls = {
-        "Bug Tracker": "https://github.com/Casokaks/light-python-template/issues"
+        "Bug Tracker": "https://github.com/Casokaks/binclf.git/issues"
     },
     license='MIT',
-    packages=['projectname'],
-    install_requires=[],  # ['plotly', 'numpy', ],
+    packages=['binclf'],
+    install_requires=[
+        'sklearn', 
+        'xgboost', 
+        'seaborn', 
+        'matplotlib', 
+        'IPython', 
+    ],  
 )
 

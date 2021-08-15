@@ -1,10 +1,10 @@
 """
-projectname
+binclf
 ==================================
-Add library description here...
+ML binary classification utility package.
 
 Author: Casokaks (https://github.com/Casokaks/)
-Created on: Aug 15th 2021
+Created on: Nov 1st 2018
 
 """
 
@@ -12,14 +12,19 @@ Created on: Aug 15th 2021
 # -----------------------------------------------------------------------------------
 # Global imports here (instead of importing in each module)
 # -----------------------------------------------------------------------------------
+
+
 import sys
+from datetime import datetime
+import numpy as np
+import pandas as pd
 
 
 # -----------------------------------------------------------------------------------
 # Imports from modules
 # Anything added can be imported later as "from project-name import xyz" 
 # -----------------------------------------------------------------------------------
-from .modulename import placeholder
+# from .modulename import placeholder
 
 
 # -----------------------------------------------------------------------------------
