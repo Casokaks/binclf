@@ -1,9 +1,13 @@
-# -*- coding: utf-8 -*-
-'''
-Utils library for Binary Classification 
-Created on Nov 1st 2018
-@author: Andrea Casati
-'''
+"""
+binclf binclf
+==================================
+Utils library for Binary Classification.
+
+Author: Casokaks (https://github.com/Casokaks/)
+Created on: Nov 1st 2018
+
+"""
+
 
 from copy import deepcopy
 import math

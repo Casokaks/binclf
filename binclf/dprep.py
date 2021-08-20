@@ -1,9 +1,12 @@
-# -*- coding: utf-8 -*-
-'''
-Utils library for data cleaning and preparation
-Created on Thu Nov  1 10:17:23 2018
-@author: Andrea Casati
-'''
+"""
+binclf dprep
+==================================
+Utils library for data cleaning and preparation.
+
+Author: Casokaks (https://github.com/Casokaks/)
+Created on: Nov 1st 2018
+
+"""
 
 
 import statistics as stat

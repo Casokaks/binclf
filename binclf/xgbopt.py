@@ -1,9 +1,12 @@
-# -*- coding: utf-8 -*-
-'''
-Utils library for XGBoost optimization 
-Created on Nov 19th 2018
-@author: Andrea Casati
-'''
+"""
+binclf xgbopt
+==================================
+Utils library for XGBoost optimization.
+
+Author: Casokaks (https://github.com/Casokaks/)
+Created on: Nov 1st 2018
+
+"""
 
 
 import math 

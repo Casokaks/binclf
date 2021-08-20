@@ -1,9 +1,12 @@
-# -*- coding: utf-8 -*-
-'''
-Utils library for Exploratory data analysis (EDA)
-Created on Thu Nov  1 10:17:23 2018
-@author: Andrea Casati
-'''
+"""
+binclf eda
+==================================
+Utils library for Exploratory data analysis (EDA).
+
+Author: Casokaks (https://github.com/Casokaks/)
+Created on: Nov 1st 2018
+
+"""
 
 
 import numpy as np

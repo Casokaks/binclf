@@ -1,5 +1,5 @@
 """
-binclf
+binclf init
 ==================================
 ML binary classification utility package.
 
@@ -8,26 +8,14 @@ Created on: Nov 1st 2018
 
 """
 
-
 # -----------------------------------------------------------------------------------
-# Global imports here (instead of importing in each module)
+# Library version
 # -----------------------------------------------------------------------------------
+__version__ = "0.2.1"
 
-
-import sys
-from datetime import datetime
-import numpy as np
-import pandas as pd
-
-
-# -----------------------------------------------------------------------------------
-# Imports from modules
-# Anything added can be imported later as "from project-name import xyz" 
-# -----------------------------------------------------------------------------------
-# from .modulename import placeholder
-
-
-# -----------------------------------------------------------------------------------
-# Library version in needed
-# -----------------------------------------------------------------------------------
-# __version__ = "0.0.1"
+# imports
+from .binclf import *
+from .clfviz import *
+from .dprep import *
+from .eda import *
+from .xgbopt import *

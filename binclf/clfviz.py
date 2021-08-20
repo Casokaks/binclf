@@ -1,9 +1,12 @@
-# -*- coding: utf-8 -*-
-'''
-Utils library to visualize decision trees 
-Created on Nov 19th 2018
-@author: Andrea Casati
-'''
+"""
+binclf clfviz
+==================================
+Utils library to visualize decision trees. 
+
+Author: Casokaks (https://github.com/Casokaks/)
+Created on: Nov 1st 2018
+
+"""
 
 
 def xgb_visualize(clf, tree_idx=0, with_stats=False, dump_format='text'):
@@ -12,6 +15,7 @@ def xgb_visualize(clf, tree_idx=0, with_stats=False, dump_format='text'):
     print('\nTree {}:'.format(tree_idx))
     print(dumps[tree_idx])
 
+    
 def tree_visualize(estimator, columns):
 
     # The decision estimator has an attribute called tree_  which stores the entire
@@ -70,6 +74,4 @@ def tree_visualize(estimator, columns):
                      children_right[i],
                      ))
     print()
-    
-    
     
